@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+Symbols:wght@600&family=Poppins:wght@500&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  width: 350px;
+  border: 1px solid rgb(195, 195, 195);
+  border-radius: 4px;
+}
+
+.insta-img {
+  width: 50%;
+}
+
+.center .header {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.center .inputElement {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 37px 0px 37px;
+}
+
+.inputElement .inputText {
+  padding: 8px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.inputText:focus {
+  outline: gray;
+}
+
+.inputButton {
+  background-color: rgb(5, 117, 223);
+  color: white;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  border: none;
+}
+.line {
+  display: flex;
+  margin-top: 7px;
+}
+.arrow {
+  background-color: gray;
+  height: 1px;
+  width: 140px;
+}
+
+.content {
+  color: gray;
+  margin-top: -8px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.fb-img {
+  width: 30px;
+  margin-top: 15px;
+  /* padding: 15px; */
+  color: rgb(0, 55, 107);
+}
+.social_icon {
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.social_icon span {
+  /* margin-left: 10px;
+  margin-top: 15px; */
+  color: rgb(0, 55, 107);
+  font-size: 14px;
+  font-weight: 600;
+}
+.forgetPassword {
+  margin: auto;
+  color: rgb(3, 66, 124);
+  margin-bottom: 26px;
+}
+.footer {
+  margin-top: 30px;
+  border: 1px solid rgb(195, 195, 195);
+  padding: 20px;
+  width: 350px;
+  text-align: center;
+}
+.footer span {
+  color: rgb(13, 55, 238);
+  cursor: pointer;
+  font-weight: 400;
+}
